@@ -1,0 +1,23 @@
+{
+  "name": "taixiu-websocket-server",
+  "version": "1.0.0",
+  "description": "Server kết nối WebSocket và cung cấp API /taixiu để xem kết quả Tài Xỉu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "websocket",
+    "server",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
